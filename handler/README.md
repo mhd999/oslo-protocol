@@ -1,4 +1,4 @@
-# Export single handler function
+# Handler
 
 ## Issues
 
