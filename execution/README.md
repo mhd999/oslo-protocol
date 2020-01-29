@@ -1,17 +1,10 @@
 # execution
 
-
-## Rules 
-
-*  Make everything idempoten.
-*  Return success instead of not-found error when retrying to re-create or re-delete something already deleted or created not-found.
-*  Set proper timeout.
-
-## Issue
+## Issues
 
 * Lambda executed multiple times for a single event.
 
-## Reason
+## Reasosns
 
 * invocation error:
 
@@ -24,4 +17,11 @@
 
 1) Function – Your function's code throws an exception or returns an error object.
 2) Runtime – The runtime terminated your function because it ran out of time, detected a syntax error, or failed to marshal the response object into JSON. The function exited with an error code.
+
+## Rules 
+
+*  Make everything idempoten.
+*  Return success instead of not-found error when retrying to re-create or re-delete something already deleted or created not-found.
+*  Set proper timeout.
+
 
