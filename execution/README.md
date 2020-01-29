@@ -2,15 +2,15 @@
 
 ## Issue
 
-Lambda executed multiple times for a single event 
+Lambda executed multiple times for a single event.
 
 ## Reason
 
 1) invocation error:
 
-*   Client timeouts
-*   Throttling errors (429
-*   Other errors not caused by a bad request (500 series)
+*   Client timeouts.
+*   Throttling errors (429).
+*   Other errors not caused by a bad request (500 series).
 
 
 2) function error:
@@ -20,6 +20,6 @@ Lambda executed multiple times for a single event
 
 ## Solution 
 
-*  Make everything idempotent
+*  Make everything idempoten.
 *  Return success instead of not-found error when retrying to re-create or re-delete something already deleted or created not-found.
-*  Set proper timeout
+*  Set proper timeout.
