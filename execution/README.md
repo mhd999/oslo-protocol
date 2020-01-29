@@ -2,13 +2,13 @@
 
 ## Rules 
 
-*  Make everything idempoten.
-*  Return success instead of not-found error when retrying to re-create or re-delete something already deleted or created not-found.
-*  Set proper timeout.
+1)  Make everything idempoten.
+2)  Return success instead of not-found error when retrying to re-create or re-delete something already deleted or created not-found.
+3)  Set proper timeout.
 
 ## Issues
 
-* Lambda executed multiple times for a single event.
+1) Lambda executed multiple times for a single event.
 
 #### Reasons
 * invocation error:
