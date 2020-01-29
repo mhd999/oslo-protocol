@@ -10,6 +10,8 @@
 
 2) Extra code to keep the Lambda resourcs warm.
 
+3) Altering the invocation metric.
+
 * Code in each lambda to detect the warming event and short-circuit them.
 
 ```
