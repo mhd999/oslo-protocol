@@ -2,13 +2,13 @@
 
 ## Rules
 
-* Export one handler from the function code
-* Name the function `handler`
+1) Export one handler from the function code
+2) Name the function `handler`
 
 ## Issues
 
-* Large code.
-* Enforce using meaningful name for the exported functions.
+1) Large code.
+2) Enforce using meaningful name for the exported functions.
 
 
 
