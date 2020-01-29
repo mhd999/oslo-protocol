@@ -4,7 +4,7 @@
 
 * Lambda executed multiple times for a single event.
 
-## Reasosns
+## Reasons
 
 * invocation error:
 
