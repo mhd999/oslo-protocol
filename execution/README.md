@@ -1,6 +1,6 @@
 # execution
 
-## Isue
+## Issue
 
 Lambda executed multiple times for a single event 
 
